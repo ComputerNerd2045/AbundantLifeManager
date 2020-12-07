@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dashboard - Abundant Life</title>
+        <style>
+    /* Styling for Each Page */
+            body {font-family: Arial;}
+            h1 {
+                text-align: center;
+                color: green;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            a:link, a:visited {
+                background-color:lightgray;
+                color: black;
+                padding: 5px 5px;
+                text-decoration: none;
+                display: inline;
+            }
+            input {
+                border-style: double;
+            }
+    /* Styling for Dual-Column format */
+            * {
+              box-sizing: border-box;
+            }
+            .column {
+                text-align: center;
+                float: left;
+                width: 50%;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html">Sign Out</a>
+        <h1>Abundant Life Dashboard</h1>
+        <hr> <br>
+            <div class="column">
+                <a type="button" href="dash_part.html">Participant Manager</a><br><br><br>
+                <a type="button" href="dash_info.html">Informational Meetings</a><br><br><br>
+                <a type="button" href="dash_intake.html">Intake Interviews</a>
+            </div>
+            <div class="column">
+                <a type="button" href="dash_case.html">Case Manager</a><br><br><br>
+                <a type="button" href="dash_resources.html">Resources</a><br><br><br>
+                <a type="button" href="dash_reports.html">Reports</a>                
+            </div>
+    </body>            
+</html>
