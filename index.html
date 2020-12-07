@@ -1,25 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/bvlogo.png">
+        <link rel="stylesheet" href="styles/common.css">
         <title>Login - Abundant Life</title>
         <style>
-    /* Styling for Each Page */
-            body {font-family: Arial;}
-            h1 {
-                text-align: center;
-                color: green;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            }
-            a:link, a:visited {
-                background-color:lightgray;
-                color: black;
-                padding: 5px 5px;
-                text-decoration: none;
-                display: inline;
-            }
-            input {
-                border-style: double;
-            }
     /* Styling for Page's Unique Format */
             p {
                text-align: center; 
@@ -38,8 +25,11 @@
         </style>
     </head>
     <body>
-        <h1>Welcome! Please sign in:</h1>
-        <hr> <br>
+        <div class="header">
+            <img src="images/bvlogo.png" width="100" height="100">
+            <h1>Welcome! Please sign in:</h1>
+            <hr> <br>
+        </div>
         <form>
             <label for="user">Username:</label>
             <input type="text" id="user" name="user"><br><br>
