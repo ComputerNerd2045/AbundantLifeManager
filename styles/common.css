@@ -1,0 +1,40 @@
+/* Styling for every page */
+
+.header img {
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    font-family: Arial;
+}
+h1 {
+    text-align: center;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a[type=button] {
+    background-color:lightgray;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+}
+a:link, a:visited {
+    background-color:lightgray;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+input {
+    border-style: double;
+}
+label {
+    text-align: right;
+}
+.settings {
+    display: grid;
+    grid-template-columns: 40% 20%;
+    grid-gap: 20px;
+}
